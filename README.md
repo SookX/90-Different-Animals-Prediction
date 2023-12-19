@@ -15,8 +15,12 @@ The dataset comprises 90 classes of animals, with 48 images per class used for t
 - **Accuracy:**
     - Training Data: 99.98%
     - Test Data: 95.56%
-- **Architecture:** [Specify the architecture used, if applicable]
-- **Training Parameters:** [Include relevant parameters used for training]
+- **Architecture:** EfficientNetB4
+
+### Predictions
+- **Issue:** Some users have reported discrepancies in prediction accuracy for certain classes.
+- **Anticipated Correction:** We are currently investigating potential causes for these inaccuracies and working on improvements to enhance prediction accuracy across all classes. This might involve refining the model architecture, revisiting data preprocessing steps, and further analysis of training data.
+
 
 ### Future Improvement Suggestions
 
@@ -24,13 +28,7 @@ The dataset comprises 90 classes of animals, with 48 images per class used for t
 2. **Experiment with Different Architectures:** Explore alternative neural network architectures to identify better-performing models.
 3. **Increase Data Quantity:** Obtain additional diverse images for each class to enhance the model's generalization.
 4. **Avoid Fine-Tuning:** Refrain from excessive fine-tuning to prevent overfitting and maintain model robustness.
-
-## Repository Structure
-
-- `data/`: Contains the dataset used for training and testing.
-- `models/`: Includes saved model weights and architectures.
-- `results/`: Holds result logs, performance metrics, and evaluation summaries.
-
+   
 ## Usage
 
 1. **Dataset Preparation:** Ensure the dataset is structured correctly within the `data/` directory.
